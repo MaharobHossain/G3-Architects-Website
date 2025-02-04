@@ -36,7 +36,6 @@
 
   /* Header style sector */
 
-
   /* Navbar style sector */
   .navbar{
     justify-content: space-between;
@@ -76,6 +75,49 @@
     color: #727272;
     font-size: 1rem;
   }
+  .banner-button:hover{
+    background-color: rgb(82, 214, 214);
+    color: black;
+}
   .banner-img{
     width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Responsive for Mobile and small Devices */
+
+  @media screen and (max-width:576px) {
+    
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    .brand-name{
+        font-size: 1.8rem;
+    }
+    .banner-titel{
+        font-size: 2rem;
+    }
+    .banner-description{
+        font-size: 0.9rem;
+    }
+   .banner-button{
+        padding: 14px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .banner-button:hover{
+        background-color: rgb(82, 214, 214);
+        color: black;
+    }
+
   }
