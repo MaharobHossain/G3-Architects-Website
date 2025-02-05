@@ -88,7 +88,7 @@ main > section{
   .banner-button:hover{
     background-color: rgb(82, 214, 214);
     color: black;
-}
+  }
   .banner-img{
     width: 100%;
   }
@@ -129,7 +129,10 @@ main > section{
  .features-description{
     font-size: 1rem;
  }
-
+ .second-button:hover{
+    background-color: rgb(82, 214, 214);
+    color: black;
+  }
 
 
 
@@ -163,5 +166,33 @@ main > section{
         background-color: rgb(82, 214, 214);
         color: black;
     }
+
+    .features{
+        flex-direction: column-reverse;
+     }
+     .features-img-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+     }
+     .features-details-box{
+        margin-top: -90px;
+        margin-left: 8px;
+        margin-bottom: 50px;
+        max-width: 90%;
+     }
+     .second-button:hover{
+        background-color: rgb(82, 214, 214);
+        color: black;
+      }
+
+      .second-button{
+        padding: 15px 20px;
+        font-size: 1rem;
+        border-radius: 5px;
+      }
+
+
+
 
   }
