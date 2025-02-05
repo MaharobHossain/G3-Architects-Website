@@ -174,11 +174,13 @@ main > section{
     align-items: center;
     margin: 50px 30px;
 }
+
+                                /* Footer style sector */
 .footer{
     max-width: 1440px;
     background-color: #FFF4E7;
     margin: 0 auto;
-    padding: 1px 110px;
+    padding: 5px 20px;
 }
 .footer-details{
     font-size: 1.2rem;
@@ -249,6 +251,19 @@ main > section{
         flex-direction: column;
         gap: 50px;
       }
+      .Sponspors-description{
+        max-width: 390px;
+      }
+      .Sponspors-img-box{
+        flex-direction: column;
+        gap: 40px;
+      }
+      .footer{
+        padding: 3px 1px;
+      }
+      .footer-details{
+        font-size: 1rem;
+    }
       
 
 
@@ -281,4 +296,8 @@ main > section{
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
       }
-  }
+      .Sponspors-img-box{
+        flex-direction: column;
+        gap: 40px;
+      }
+ }
