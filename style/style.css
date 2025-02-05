@@ -249,5 +249,12 @@ main > section{
         margin-top: -90px;
         margin-bottom: 50px;
       }
-      
+      .facts-details{
+        margin-left: 130px;
+      }
+      .facts-boxes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+      }
   }
