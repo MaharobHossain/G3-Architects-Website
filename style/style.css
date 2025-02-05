@@ -191,8 +191,28 @@ main > section{
         font-size: 1rem;
         border-radius: 5px;
       }
+      
 
 
 
 
+  }
+
+
+
+
+
+
+
+
+
+  @media screen and (min-width: 577px) and (max-width: 992px){
+
+    .features{
+        flex-direction: column-reverse;
+     }
+     .features-details-box{
+        margin-top: -90px;
+        margin-bottom: 50px;
+      }
   }
