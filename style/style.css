@@ -217,6 +217,14 @@ main > section{
         font-size: 1rem;
         border-radius: 5px;
       }
+       .facts-details{
+        max-width: 330px;
+        margin-left: 30px;
+      }
+      .facts-boxes{
+        flex-direction: column;
+        gap: 50px;
+      }
       
 
 
@@ -241,4 +249,5 @@ main > section{
         margin-top: -90px;
         margin-bottom: 50px;
       }
+      
   }
