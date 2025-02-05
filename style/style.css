@@ -38,6 +38,9 @@ main{
     max-width: 1440px;
     margin: 0 auto;
 }
+main > section{
+    margin-top: 130px;
+}
 
                                 /* Header style sector */
 
@@ -97,9 +100,15 @@ main{
  /* Features section style */
  .features{
     display: flex;
+    align-items: center;
  }
- 
+ .features-img-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+ }
  .features-details-box{
+    margin-left: 70px;
     max-width: 537px;
  }
  .features-titel{
