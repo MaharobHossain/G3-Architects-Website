@@ -162,6 +162,20 @@ main > section{
   }
 
 
+/*  Sponspors section style */
+.Sponspors-details{
+    text-align: center;
+}
+.Sponspors-titel{
+    font-size: 2.5rem;
+}
+.Sponspors-img-box{
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 30px;
+}
+
+
 
 
 
