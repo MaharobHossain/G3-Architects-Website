@@ -142,7 +142,7 @@ main > section{
   .enjoy-cards{
     padding: 30px;
     margin-left: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
   }
@@ -160,6 +160,9 @@ main > section{
     margin-top: 0;
     margin-bottom: 0;
   }
+  /* .enjoy-img-part img{
+    width: 100%;
+  } */
   #big-badge{
     padding: 46px 42px 45px 42px;
     font-size: 1.5rem;
@@ -242,7 +245,7 @@ main > section{
 
   @media screen and (max-width:576px) {
     
-    .navbar, .nav-links{
+    .enjoy, .navbar, .nav-links{
         flex-direction: column;
     }
     .brand-name{
@@ -288,6 +291,19 @@ main > section{
         font-size: 1rem;
         border-radius: 5px;
       }
+      .enjoy{
+        flex-direction: column;
+     }
+     .enjoy-detail{
+      margin-left: 5px;
+     }
+     .enjoy-img-part img{
+       width: 100%;
+     }
+     #big-badge{
+      margin-left: 18px;
+      margin-top: 30px;
+    }
        .facts-details{
         max-width: 330px;
         margin-left: 30px;
