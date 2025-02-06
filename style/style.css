@@ -157,6 +157,8 @@ main > section{
   .enjoy-card-titel{
     font-size: 1.25rem;
     font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   /* Facts section style */
