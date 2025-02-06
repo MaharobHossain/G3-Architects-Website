@@ -173,8 +173,13 @@ main > section{
     justify-content: space-between;
     align-items: center;
     margin: 50px 30px;
+    
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
 }
-
+.Sponspors-img-box img{
+  filter: grayscale(100%);
+}
                                 /* Footer style sector */
 .footer{
     max-width: 1440px;
