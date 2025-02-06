@@ -300,8 +300,11 @@ main > section{
      .enjoy-img-part img{
        width: 100%;
      }
+     .enjoy-img-part{
+      text-align: center;
+     }
      #big-badge{
-      margin-left: 18px;
+      margin-left: 20px;
       margin-top: 30px;
     }
        .facts-details{
@@ -349,6 +352,19 @@ main > section{
         margin-top: -90px;
         margin-bottom: 50px;
       }
+      .enjoy{
+        flex-direction: column;
+     }
+     .enjoy-details{
+      margin-left: 25px;
+     }
+     .enjoy-img-part{
+      text-align: center;
+     }
+     #big-badge{
+      margin-left: 20px;
+      margin-top: 30px;
+    }
       .facts-details{
         margin-left: 130px;
       }
