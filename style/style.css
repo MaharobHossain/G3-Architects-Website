@@ -142,7 +142,7 @@ main > section{
   .enjoy-cards{
     padding: 30px;
     margin-left: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     border-radius: 8px;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
   }
@@ -159,6 +159,17 @@ main > section{
     font-weight: 600;
     margin-top: 0;
     margin-bottom: 0;
+  }
+  #big-badge{
+    padding: 46px 42px 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -92px;
+    margin-top: -77px;
+  }
+  #exp-year{
+    font-weight: 700;
+    font-size: 4rem;
   }
 
   /* Facts section style */
