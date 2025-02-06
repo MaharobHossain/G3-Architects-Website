@@ -132,6 +132,33 @@ main > section{
     color: black;
   }
 
+
+ /* Enjoy section style */
+  .enjoy{
+    gap: 130px;
+    margin-top: 50px;
+
+  }
+  .enjoy-cards{
+    padding: 30px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  }
+  #enjoy-titel{
+    border-left: 6px solid #FF900E;
+    padding-left: 20px;
+  }
+  .enjoy-detail-titel{
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+  .enjoy-card-titel{
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
   /* Facts section style */
   .facts-details{
     max-width: 542px;
@@ -173,7 +200,7 @@ main > section{
     justify-content: space-between;
     align-items: center;
     margin: 50px 30px;
-    
+
     /* display: grid;
     grid-template-columns: repeat(5, 1fr); */
 }
